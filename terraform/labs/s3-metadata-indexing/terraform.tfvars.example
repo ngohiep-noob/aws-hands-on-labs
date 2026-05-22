@@ -1,0 +1,12 @@
+project_name     = "s3-metadata-indexing"
+aws_region       = "ap-southeast-1"
+# Leave this unset when using aws login / SSO-backed credentials.
+# Set it only if you want Terraform to use a named shared profile.
+aws_profile      = null
+s3_object_prefix = "incoming/"
+
+resource_tags = {
+  Environment = "lab"
+  Owner       = "your-name"
+  ManagedBy   = "terraform"
+}

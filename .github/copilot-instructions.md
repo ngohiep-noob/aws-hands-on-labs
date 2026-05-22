@@ -38,5 +38,5 @@ This repository contains AWS hands-on labs provisioned with Terraform.
 
 ## Notes for Future Changes
 - If you add a new lab, create a new folder under `terraform/labs/<lab-name>` and keep its state inside that folder.
-- Update lab-specific `README.md` files when workflow or layout conventions change.
+- Update a lab-specific `labs/<lab-name>/README.md` file when workflow or layout conventions change.
 - Never commit `.env` or lab-specific `terraform.tfvars` files.

@@ -91,6 +91,8 @@ Copy-Item terraform/labs/getting-started/terraform.tfvars.example terraform/labs
 
 You can replace `getting-started` with any other lab folder name that follows the same `terraform/labs/<lab-name>` layout.
 
+Lab-specific docs live in each lab's `labs/<lab-name>/README.md` file.
+
 ## Manual Terraform commands
 
 ```powershell
